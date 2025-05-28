@@ -5,5 +5,5 @@ from models import Base, Company, Dev
 
 if __name__ == '__main__':
     engine = create_engine('sqlite:///freebies.db')
-    Base.metadata.create_all(engine)  # This creates the tables based on your models
+    Base.metadata.create_all(engine)
     print("Tables created.")
