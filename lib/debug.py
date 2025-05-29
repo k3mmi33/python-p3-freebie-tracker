@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
 from sqlalchemy import create_engine
-from models import Base, Company, Dev
+from models import Base
 
 if __name__ == '__main__':
     engine = create_engine('sqlite:///freebies.db')
